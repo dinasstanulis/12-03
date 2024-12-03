@@ -1,0 +1,13 @@
+git log --oneline --all --graph
+git add .
+git commit -m ""
+git merge
+git branch -d //deletes -D forces || -all shows all branches || -m renames
+git commit -am // combines add and commit
+git fetch // combines pull and merge
+git switch // changes branch || -c creates a new branch || then you can fetch into the new branch another from github to edit it
+git clone <URL>
+git config --global user.name || user.email
+git remote add origin <url> || git remote set-url origin <new-url>
+
+
